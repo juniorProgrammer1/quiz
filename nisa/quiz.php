@@ -4,6 +4,23 @@
 <link rel="stylesheet" type="text/css" href="css/quiz.css">
 <script src="js/jquery-2.1.0.min.js">
 </script>
+
+
+<script>
+$(document).ready(function(){
+  $("#bank").keyup(function(){
+      
+     var maybank = +$('#maybank').val();
+     var bankislam = +$('#bankislam').val();
+     
+     total= maybank + bankislam;
+     $('#total').val(total);
+     
+     
+  });
+});
+
+</script>
     <title></title>
 </head>
 <body>

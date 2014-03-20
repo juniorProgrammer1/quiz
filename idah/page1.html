@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="js/jquery-1.11.0.js">
+		<script src="js/jquery-2.1.0.min.js"></script>
+        <script>
+			$(document).ready(function(){
+			$("#bank").keyup(function () {
+   					 var value1 = +$('#maybank').val();
+    				var value2 = +$('#bankislam').val();
+    				var sum = value1 + value2;
+         			$('#total').val(sum);    
+					});
+    
+				});
+		</script>
+	</head>
+	<body>
+		<table class="table table-bordered" id="bank">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Maybank</th>
+            <th>Bank Islam</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Mark</td>
+            <td>
+                <input type="text" id="maybank" />
+            </td>
+            <td>
+                <input type="text" id="bankislam" />
+            </td>
+            <td>
+                <input type="text" id="total" disabled="true" />
+            </td>
+        </tr>
+    </tbody>
+</table>
+	</body>
+</html>

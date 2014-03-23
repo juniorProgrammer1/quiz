@@ -18,14 +18,13 @@
                     total(totalsum);
                     });
             });
- 
         //iterate through each textboxes and add keyup
         //handler to trigger sum event
         $(".maybank").each(function() {
  
             $(this).keyup(function(){
                 calculatemaybank();
-              //  calculatemaybankmean();
+                //calculatemaybankmean();
             });
         });
 
@@ -33,23 +32,23 @@
  
             $(this).keyup(function(){
                 calculatebankislam();
+                //calculatebankislammean();
             });
         });
- 
     });
  
     function calculatemaybank() {
  
         var summaybank = 0;
-        count = 0;
         //iterate through each textboxes and add the values
         $(".maybank").each(function() {
  
             //add only if the value is number
+            //for (i = 0; i < numbers.length; i += 1) {
             if(!isNaN(this.value) && this.value.length!=0) {
                 summaybank += parseInt(this.value);
-                count++;
             }
+        //}
 
             //var totalmean  = +$('#summaybank').val;
             //all.find('#maybankmean').text((totalmean/count).toFixed(3));
@@ -63,6 +62,7 @@
         function calculatebankislam() {
  
         var sumbankislam = 0;
+        //count = 0;
         //iterate through each textboxes and add the values
         $(".bankislam").each(function() {
  
@@ -75,7 +75,6 @@
         //.toFixed() method will roundoff the final sum to 2 decimal places
         $("#sumbankislam").html(sumbankislam);
     }
-
 
     function total(totalsum) {
  
@@ -152,6 +151,19 @@
             <tr>
            <td>4</td>
            <td>Lin</td>
+            <td>
+            <input type='text' class='maybank'>
+            </td>
+           <td>
+            <input type='text' class='bankislam'/>
+            </td>
+            <td>
+            <input type='text' class='total' disabled='true' />
+            </td>
+            </tr>
+            <tr>
+           <td>5</td>
+           <td>Rashid</td>
             <td>
             <input type='text' class='maybank'>
             </td>

@@ -4,8 +4,8 @@
     <script src="js/jquery-2.1.0.min.js">
 
     </script>
-     <script>
-
+   
+<script>
      $.fn.sumValues = function() {
     var sum = 0; 
     this.each(function() {
@@ -18,8 +18,8 @@
     });
     return sum;
 };
-    </script>
-
+    
+</script>
 
     <script>
     //total of each maybank and bank islam
@@ -30,18 +30,21 @@
     $('input.txt2').bind('keyup', function() {
         $('span.total2').html( $('input.txt2').sumValues() );
         });
-});
+        });
 
         //sum of maybank and bank islam
             $(document).ready(function(){
-            $("#bank").bind('each keyup',function () {
-                     var val1 = +$('#maybank').val();
-                    var val2 = +$('#bankislam').val();
-                    var sum = val1 + val2;
-                    $('input.sum').val(sum);    
+                
+            $("#bank").keyup(function () {
+            $('.table tbody tr').each(function() {
+                     var maybank = +$(this).find('input.txt1').val();
+                    var bankislam =  +$(this).find('input.txt2').val();
+                    var sum = (maybank + bankislam);
+                    $(this).find('input.sum').val(sum);    
                     });
-            
+            return false;
                 });
+        });
 
         </script>
 <style>
@@ -96,8 +99,61 @@ border:3px solid teal;
                 <input type="text" class="sum" disabled="true" />
             </td>
         </tr>
-
+        <tr>
+            <td>3</td>
+            <td>Sarah</td>
+            <td>
+                <input class="txt1" type="text" name="txt1" id="maybank" />
+            </td>
+            <td>
+                <input class="txt2" type="text" name="txt2" id="bankislam" />
+            </td>
+            <td>
+                <input type="text" class="sum" disabled="true" />
+            </td>
+        </tr>
         
+        <tr>
+            <td>4</td>
+            <td>Julia</td>
+            <td>
+                <input class="txt1" type="text" name="txt1" id="maybank" />
+            </td>
+            <td>
+                <input class="txt2" type="text" name="txt2" id="bankislam" />
+            </td>
+            <td>
+                <input type="text" class="sum" disabled="true" />
+            </td>
+        </tr>
+
+         <tr>
+            <td>5</td>
+            <td>Bob</td>
+            <td>
+                <input class="txt1" type="text" name="txt1" id="maybank" />
+            </td>
+            <td>
+                <input class="txt2" type="text" name="txt2" id="bankislam" />
+            </td>
+            <td>
+                <input type="text" class="sum" disabled="true" />
+            </td>
+        </tr>
+
+         <tr>
+            <td>6</td>
+            <td>Kitty</td>
+            <td>
+                <input class="txt1" type="text" name="txt1" id="maybank" />
+            </td>
+            <td>
+                <input class="txt2" type="text" name="txt2" id="bankislam" />
+            </td>
+            <td>
+                <input type="text" class="sum" disabled="true" />
+            </td>
+        </tr>
     </tbody>
 
 <tr>

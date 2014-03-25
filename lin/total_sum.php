@@ -1,9 +1,9 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css/quiz.css">
-    <script src="js/jquery-2.1.0.min.js">
+<link rel="stylesheet" type="text/css" href="css/quiz.css">
+<script src="js/jquery-2.1.0.min.js">
 
-    </script>
+</script>
    
 <script>
      $.fn.sumValues = function() {
@@ -17,11 +17,11 @@
         sum += parseFloat( ('0' + val).replace(/[^0-9-\.]/g, ''), 10 );
     });
     return sum;
-};
+    };
     
 </script>
 
-    <script>
+<script>
     //total of each maybank and bank islam
     $(document).ready(function() {
     $('input.txt1').bind('keyup', function() {
@@ -37,7 +37,7 @@
                 
             $("#bank").keyup(function () {
             $('.table tbody tr').each(function() {
-                     var maybank = +$(this).find('input.txt1').val();
+                    var maybank = +$(this).find('input.txt1').val();
                     var bankislam =  +$(this).find('input.txt2').val();
                     var sum = (maybank + bankislam);
                     $(this).find('input.sum').val(sum);    
@@ -46,7 +46,14 @@
                 });
         });
 
-        </script>
+        $(document).ready(function(){
+            $('#total1') = +$('maybank')
+            $('maybank') = 
+
+        })
+
+</script>
+
 <style>
 table
 {
@@ -154,7 +161,7 @@ border:3px solid teal;
                 <input type="text" class="sum" disabled="true" />
             </td>
         </tr>
-    </tbody>
+    
 
 <tr>
     <td></td>
@@ -163,7 +170,49 @@ border:3px solid teal;
     <td>Amount of Bank Islam: <span class="total2"></span></td>
 
 </tr>
+<tr>
+            <td></td>
+            <td>Mean</td>
+            <td>
+                <input class="txt1_mean" type="text" disabled="true" />
+            </td>
+            <td>
+                <input class="txt2_mean" type="text" disabled="true" />
+            </td>
+            <td>
+                <input type="text" class="sum" disabled="true" />
+            </td>
+        </tr>
 
+<tr>
+            <td></td>
+            <td>Mode</td>
+            <td>
+                <input class="txt1_mode" type="text" disabled="true" />
+            </td>
+            <td>
+                <input class="txt2_mode" type="text" disabled="true" />
+            </td>
+            <td>
+                <input type="text" class="sum" disabled="true" />
+            </td>
+        </tr>
+
+    <tr>
+            <td></td>
+            <td>Median</td>
+            <td>
+                <input class="txt1_median" type="text" disabled="true" />
+            </td>
+            <td>
+                <input class="txt2_median" type="text" disabled="true" />
+            </td>
+            <td>
+                <input type="text" class="sum" disabled="true" />
+            </td>
+        </tr>
+
+</tbody>
 </table>
 </body>
 </html>

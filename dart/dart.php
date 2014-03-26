@@ -329,10 +329,13 @@
             });
             
     </script>
+
 </head>
 <body>
 
-
+<table>
+    <tr>
+        <td>
 <img class="dart" id="Image-Maps-Com-image-maps-2014-03-26-022649" src="http://www.image-maps.com/m/private/12289/10308-bvup3f4vrkd85a0b5u0egrt2u6_dart.jpg" border="0" width="600" height="600" orgWidth="600" orgHeight="600" usemap="#image-maps-2014-03-26-022649" alt="" />
 <map class="dart" name="image-maps-2014-03-26-022649" id="ImageMapsCom-image-maps-2014-03-26-022649">
 <area shape="rect" coords="598,598,600,600" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_12289" />
@@ -418,7 +421,12 @@
 <area id="s20_2" alt="" title="single 20" href="#" shape="poly" coords="280,200,314,200,299,289,295,292"     />
 <area id="s25" alt="" title="single 25" href="#" shape="poly" coords="317,310,314,323,307,331,294,334,279,323,278,313,283,301,294,296,307,297"      />
 <area id="s50" alt="" title="single 50" href="#" shape="poly" coords="296,306.40000915527344,305,310.40000915527344,304,320.40000915527344,296,322.40000915527344,292,318.40000915527344,290,310.40000915527344"      />
-<table class="table table-bordered">
+
+</map>
+</td>
+<td>
+
+<table class="table table-bordered" border="2" color="black">
     <thead>
         <tr>
             <th><center>Player 1</center></th>
@@ -439,8 +447,10 @@
 
     </tbody>
 </table>
-</map>
+</td>
+</tr>
 
+</table>
 
 
 </body>

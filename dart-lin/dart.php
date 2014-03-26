@@ -63,99 +63,99 @@
             ]
     });
     </script>
+
+
 </head>
 <body>
 
 
-<img id="dart" src="http://www.image-maps.com/m/private/12289/10291-bvup3f4vrkd85a0b5u0egrt2u6_dart.jpg" border="0" width="1000" height="1000" orgWidth="1000" orgHeight="1000" usemap="#image-maps-2014-03-25-211224" border="0" width="1000" height="1000" orgWidth="1000" orgHeight="1000" usemap="#image-maps-2014-03-25-211224" alt="" />
-<map name="image-maps-2014-03-25-211224" id="ImageMapsCom-image-maps-2014-03-25-211224">
-<area id="t12" alt="" title="triple 12" href="" shape="rect" coords="364,345,390,374"     />
-<area id="t18" alt="" title="triple 18" href="" shape="rect" coords="595,347,627,375"  />
-<area id="t17" alt="" title="triple 17" href="" shape="rect" coords="540,703,573,729"    />
-<area id="s50" alt="" title="single 50" href="" shape="rect" coords="479,507,512,533"     />
-<area id="s25" alt="" title="single 25" href="" shape="rect" coords="491,492,520,513"      />
-<area shape="rect" coords="998,998,1000,1000" alt="Image Map"  title="Image Map" href="" />
-<area id="d1" alt="" title="double 1" href="" shape="poly" coords="551,192,547,210,637,240,646,222,603,207"     />
-<area name="s1" id="s1" alt="" title="single 1" href="" shape="poly" coords="547,212,529,314,589,332,638,243"      />
-<area id="t3" alt="" title="triple 3" href="" shape="poly" coords="528,314,588,335,578,355,525,332"    />
-<area id="s1_2" alt="" title="single 1" href="" shape="poly" coords="524,354,500,484,509,489,580,355,528,336"      />
-<area id="d2" alt="" title="double 2" href="" shape="poly" coords="721,750,642,804,651,823,697,794,733,763"  />
-<area id="s2" alt="" title="single 2" href="" shape="poly" coords="592,710,645,674,717,748,683,776,641,803"     />
-<area id="t2" alt="" title="triple 2" href="" shape="poly" coords="584,693,631,662,642,673,617,692,593,706"    />
-<area id="s2_2" alt="" title="single 2" href="" shape="poly" coords="514,554,519,548,629,658,603,680,583,690"      />
-<area id="d3" alt="" title="double 3" href="" shape="poly" coords="541,838,545,857,492,861,443,854,446,839"   />
-<area id="s3" alt="" title="single 3" href="" shape="poly" coords="465,740,448,835,495,836,541,837,527,735" 
-<area id="t3" alt="" title="triple 3" href="" shape="poly" coords="466,711,522,713,524,728,496,732,468,732"    />
-<area id="s3_2" alt="" title="single 3" href="" shape="poly" coords="492,556,499,557,522,709,494,711,469,706"      />
-<area id="d4" alt="" title="double 4" href="" shape="poly" coords="738,289,791,371,778,376,752,335,718,298"     />
-<area id="s4" alt="" title="single 4" href="" shape="poly" coords="718,301,774,379,685,422,648,374"     />
-<area id="t4" alt="" title="triple 4" href="" shape="poly" coords="643,376,633,390,665,432,680,424" />
-<area id="s4_2" alt="" title="single 4" href="" shape="poly" coords="631,390,519,497,525,504,665,435,647,411"     />
-<area id="d5" alt="" title="double 5" href="" shape="poly" coords="346,224,353,238,444,210,440,196,394,205"     />
-<area id="s5" alt="" title="single 5" href="" shape="poly" coords="353,240,404,331,463,308,444,212"     />
-<area id="t5" alt="" title="triple 5" href="" shape="poly" coords="404,333,458,317,464,332,410,349"     />
-<area id="s5_2" alt="" title="single 5" href="" shape="poly" coords="409,353,478,489,491,479,464,336"   />
-<area id="d6" alt="" title="double 6" href="" shape="poly" coords="812,474,825,471,832,525,829,573,813,568"    />
-<area id="s6" alt="" title="single 6" href="" shape="poly" coords="806,472,708,491,708,553,805,567,812,523"    />
-<area id="t6" alt="" title="triple 6" href="" shape="poly" coords="686,491,702,490,704,525,703,552,689,549"     />
-<area id="s6_2" alt="" title="single 6" href="" shape="poly" coords="683,494,531,516,533,525,684,549"     />
-<area id="d7" alt="" title="double 7" href="" shape="poly" coords="258,761,269,746,308,784,346,810,338,822,296,791"      />
-<area id="s7" alt="" title="single 7" href="" shape="poly" coords="270,744,345,676,395,711,346,802"      />
-<area id="t7" alt="" title="triple 7" href="" shape="poly" coords="348,671,360,659,407,693,397,711"   />
-<area id="s7_2" alt="" title="single 7" href="" shape="poly" coords="361,654,471,550,479,557,406,687"     />
-<area id="d8" alt="" title="double 8" href="" shape="poly" coords="162,573,182,572,211,666,195,674,178,635"     />
-<area id="s8" alt="" title="single 8" href="" shape="poly" coords="185,571,285,554,307,615,215,663,194,619"      />
-<area id="t8" alt="" title="triple 8" href="" shape="poly" coords="288,556,304,554,321,608,308,616"    />
-<area id="s8_2" alt="" title="single 8" href="" shape="poly" coords="309,550,323,605,461,537,457,531"      />
-<area id="d9" alt="" title="double 9" href="" shape="poly" coords="255,289,270,302,214,375,200,367"    />
-<area id="s9" alt="" title="single 9" href="" shape="poly" coords="214,380,306,423,343,374,272,303"     />
-<area id="t9" alt="" title="triple 9" href="" shape="poly" coords="312,425,328,431,358,385,343,377"    />
-<area id="s9_2" alt="" title="single 9" href="" shape="poly" coords="332,438,463,506,467,495,358,389,327,436"     />
-<area id="d10" alt="" title="double 10" href="" shape="poly" coords="810,574,827,577,816,622,796,672,782,666"     />
-<area id="s10" alt="" title="single 10" href="" shape="poly" coords="808,575,707,558,686,616,781,664"     />
-<area id="t10" alt="" title="triple 10" href="" shape="poly" coords="688,552,704,555,682,617,667,607"     />
-<area id="s10_2" alt="" title="single 10" href="" shape="poly" coords="680,554,532,527,530,537,666,606"      />
-<area id="d11" alt="" title="double 11" href="" shape="poly" coords="162,470,178,474,181,568,163,572"     />
-<area id="s11" alt="" title="single 11" href="" shape="poly" coords="185,472,286,490,286,554,184,568"     />
-<area id="t11" alt="" title="triple 11" href="" shape="poly" coords="294,493,304,493,301,550,288,552,287,493"      />
-<area id="s11_2" alt="" title="single 11" href="" shape="poly" coords="310,492,457,519,455,529,307,546"      />
-<area id="d12" alt="" title="double 12" href="" shape="poly" coords="259,282,270,295,349,241,342,228"   />
-<area id="s12" alt="" title="single 12" href="" shape="poly" coords="358,251,399,332,347,365,273,297,353,241"    />
-<area id="s12_2" alt="" title="single 12" href="" shape="poly" coords="361,385,471,494,474,489,409,355"      />
-<area id="d13" alt="" title="double 13" href="" shape="poly" coords="781,379,793,374,826,467,809,469"      />
-<area id="s13" alt="" title="single 13" href="" shape="poly" coords="689,425,774,381,809,470,706,484"     />
-<area id="s13_2" alt="" title="single 13" href="" shape="poly" coords="668,444,685,490,531,515,530,506,666,437"      />
-<area id="t13" alt="" title="triple 13" href="" shape="poly" coords="667,435,681,432,699,486,684,490"    />
-<area id="d14" alt="" title="double 14" href="" shape="poly" coords="193,373,208,382,178,471,162,467"      />
-<area id="s14" alt="" title="single 14" href="" shape="poly" coords="212,379,182,469,283,487,303,427"      />
-<area id="t14" alt="" title="triple 14" href="" shape="poly" coords="309,429,325,436,301,492,290,488"     />
-<area id="s14_2" alt="" title="single 14" href="" shape="poly" coords="326,438,309,492,459,515,458,506"    />
-<area id="d15" alt="" title="double 15" href="" shape="poly" coords="777,670,793,678,771,719,737,757,722,748"     />
-<area id="s15" alt="" title="single 15" href="" shape="poly" coords="778,669,683,620,649,672,720,744"      />
-<area id="t15" alt="" title="triple 15" href="" shape="poly" coords="665,614,636,658,644,668,663,648,680,620"      />
-<area id="s15_2" alt="" title="single 15" href="" shape="poly" coords="663,610,527,537,519,546,633,655"      />
-<area id="d16" alt="" title="double 16" href="" shape="poly" coords="196,676,208,668,266,746,254,756,228,724"     />
-<area id="s16" alt="" title="single 16" href="" shape="poly" coords="214,664,307,617,342,674,265,745"     />
-<area id="t16" alt="" title="triple 16" href="" shape="poly" coords="310,618,321,612,357,659,345,666"     />
-<area id="s16_2" alt="" title="single 16" href="" shape="poly" coords="327,610,464,539,468,548,360,653"      />
-<area id="d17" alt="" title="double 17" href="" shape="poly" coords="548,835,549,856,645,825,635,811"   />
-<area id="s17" alt="" title="single 17" href="" shape="poly" coords="635,806,591,711,530,733,548,833,593,823"     />
-<area id="s17_2" alt="" title="single 17" href="" shape="poly" coords="523,708,500,556,510,552,579,693"      />
-<area id="d18" alt="" title="double 18" href="" shape="poly" coords="648,224,642,241,722,297,725,283"      />
-<area id="s18" alt="" title="single 18" href="" shape="poly" coords="637,245,593,334,645,373,714,297,666,264"      />
-<area id="t18" alt="" title="triple 18" href="" shape="poly" coords="532,318,528,331,580,352,586,333"    />
-<area id="s18_2" alt="" title="single 18" href="" shape="poly" coords="583,354,510,493,517,497,625,386"    />
-<area id="d19" alt="" title="double 19" href="" shape="poly" coords="350,809,399,827,439,839,438,857,392,846,343,824"     />
-<area id="s19" alt="" title="single 19" href="" shape="poly" coords="352,805,397,713,459,732,441,836"     />
-<area id="t19" alt="" title="triple 19" href="" shape="poly" coords="407,694,403,709,458,729,458,716"      />
-<area id="s19_2" alt="" title="single 19" href="" shape="poly" coords="412,689,480,553,490,557,464,710,409,692"      />
-<area id="d20" alt="" title="double 20" href="" shape="poly" coords="444,190,445,211,502,206,546,209,545,192"      />
-<area id="s20" alt="" title="single 20" href="" shape="poly" coords="446,216,465,312,528,311,543,210,489,207"      />
-<area id="t20" alt="" title="triple 20" href="" shape="poly" coords="464,315,471,333,522,330,526,315"     />
-<area id="s20_2" alt="" title="single 20" href="" shape="poly" coords="469,334,522,337,498,490,490,487"      />
+<img id="Image-Maps-Com-image-maps-2014-03-26-022649" src="http://www.image-maps.com/m/private/12289/10308-bvup3f4vrkd85a0b5u0egrt2u6_dart.jpg" border="0" width="600" height="600" orgWidth="600" orgHeight="600" usemap="#image-maps-2014-03-26-022649" alt="" />
+<map name="image-maps-2014-03-26-022649" id="ImageMapsCom-image-maps-2014-03-26-022649">
+<area shape="rect" coords="598,598,600,600" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_12289" />
+<area id="d1" alt="" title="double 1" href="" shape="poly" coords="329,114,358,124,386,134,382,143,330,126"    />
+<area id="s1" alt="" title="single 1" href="" shape="poly" coords="327,128,316,189,353,200,380,146,358,134"     />
+<area id="t1" alt="" title="triple 1" href="" shape="poly" coords="318,190,317,200,350,212,354,200"    />
+<area id="s1_2" alt="" title="single 1" href="" shape="poly" coords="317,200,349,212,307,292,300,291"    />
+<area id="d2" alt="" title="double 2" href="" shape="poly" coords="385,483,390,492,416,476,440,459,429,449"     />
+<area id="s2" alt="" title="single 2" href="" shape="poly" coords="385,482,356,427,386,404,431,448,411,466"      />
+<area id="t2" alt="" title="triple 2" href="" shape="poly" coords="351,416,354,426,388,404,378,396"      />
+<area id="s2_2" alt="" title="single 2" href="" shape="poly" coords="349,412,379,392,312,330,308,332"     />
+<area id="d3" alt="" title="double 3" href="" shape="poly" coords="268,500,264,515,297,516,328,515,325,501"    />
+<area id="s3" alt="" title="single 3" href="" shape="poly" coords="267,501,279,439,315,440,324,502,295,503"     />
+<area id="t3" alt="" title="triple 3" href="" shape="poly" coords="280,427,277,439,300,440,312,439,314,428"     />
+<area id="s3_2" alt="" title="single 3" href="" shape="poly" coords="279,425,295,333,300,340,311,428"      />
+<area id="d4" alt="" title="double 4" href="" shape="poly" coords="439,170,432,179,468,226,475,221,464,201"     />
+<area id="s4" alt="" title="single 4" href="" shape="poly" coords="429,180,386,224,411,256,468,227,450,199"     />
+<area id="t4" alt="" title="triple 4" href="" shape="poly" coords="379,233,386,226,408,256,398,261"    />
+<area id="s4_2" alt="" title="single 4" href="" shape="poly" coords="376,233,310,297,316,304,397,262,391,247"      />
+<area id="d5" alt="" title="double 5" href="" shape="poly" coords="208,134,212,142,268,126,264,116,236,123"      />
+<area id="s5" alt="" title="single 5" href="" shape="poly" coords="215,145,241,198,276,188,266,126"     />
+<area id="t5" alt="" title="triple 5" href="" shape="poly" coords="240,200,244,210,277,198,276,188"    />
+<area id="s5_2" alt="" title="single 5" href="" shape="poly" coords="245,212,285,293,292,290,280,200"      />
+<area id="d6" alt="" title="double 6" href="" shape="poly" coords="486,284,496,283,497,343,489,342"      />
+<area id="s6" alt="" title="single 6" href="" shape="poly" coords="485,281,424,294,423,332,486,341,488,310"      />
+<area id="t6" alt="" title="triple 6" href="" shape="poly" coords="411,296,420,293,422,331,408,330"    />
+<area id="s6_2" alt="" title="single 6" href="" shape="poly" coords="316,310,410,296,409,331,318,317"      />
+<area id="d7" alt="" title="double 7" href="" shape="poly" coords="154,457,163,449,208,484,203,493"      />
+<area id="s7" alt="" title="single 7" href="" shape="poly" coords="162,448,207,405,236,425,207,480,182,464"      />
+<area id="t7" alt="" title="triple 7" href="" shape="poly" coords="208,403,214,395,243,416,238,428"    />
+<area id="s7_2" alt="" title="single 7" href="" shape="poly" coords="217,394,244,413,286,333,280,332"      />
+<area id="d8" alt="" title="double 8" href="" shape="poly" coords="99,344,106,379,116,404,126,397,108,343"      />
+<area id="s8" alt="" title="single 8" href="" shape="poly" coords="109,343,128,398,182,368,168,334"      />
+<area id="t8" alt="" title="triple 8" href="" shape="poly" coords="171,332,184,328,192,364,184,370"     />
+<area id="s8_2" alt="" title="single 8" href="" shape="poly" coords="186,331,196,363,275,325,271,318"      />
+<area id="d9" alt="" title="double 9" href="" shape="poly" coords="153,172,117,221,128,226,164,180"     />
+<area id="s9" alt="" title="single 9" href="" shape="poly" coords="163,180,207,224,184,255,128,228"      />
+<area id="t9" alt="" title="triple 9" href="" shape="poly" coords="207,224,216,233,195,262,184,256"     />
+<area id="s9_2" alt="" title="single 9" href="" shape="poly" coords="216,232,195,260,276,303,281,295"      />
+<area id="d10" alt="" title="double 10" href="" shape="poly" coords="486,344,496,344,489,377,479,402,468,400"     />
+<area id="s10" alt="" title="single 10" href="" shape="poly" coords="484,344,422,334,419,353,411,369,466,399,478,376"      />
+<area id="t10" alt="" title="triple 10" href="" shape="poly" coords="410,331,421,333,409,371,399,369"     />
+<area id="s10_2" alt="" title="single 10" href="" shape="poly" coords="409,331,398,364,318,323,319,317"     />
+<area id="d11" alt="" title="" href="double 11" shape="poly" coords="98,281,95,314,97,341,108,339,109,283"      />
+<area id="s11" alt="" title="single 11" href="" shape="poly" coords="108,283,170,293,171,332,109,341"      />
+<area id="t11" alt="" title="triple 11" href="" shape="poly" coords="173,294,183,297,180,330,171,331"     />
+<area id="s11_2" alt="" title="single 11" href="" shape="poly" coords="184,295,275,310,272,317,184,330"     />
+<area id="d12" alt="" title="double 12" href="" shape="poly" coords="156,171,177,152,203,135,212,146,163,179"      />
+<area id="s12" alt="" title="single 12" href="" shape="poly" coords="164,179,212,145,237,199,208,221"      />
+<area id="t12" alt="" title="triple 12" href="" shape="poly" coords="208,222,238,201,244,212,217,232"     />
+<area id="s12_2" alt="" title="single 12" href="" shape="poly" coords="217,231,282,296,284,293,245,212"     />
+<area id="d13" alt="" title="double 13" href="" shape="poly" coords="466,229,477,224,497,280,484,280"      />
+<area id="s13" alt="" title="single 13" href="" shape="poly" coords="464,230,410,256,424,292,484,280,477,252"     />
+<area id="t13" alt="" title="triple 13" href="" shape="poly" coords="398,260,409,256,422,292,410,295"      />
+<area id="s13_2" alt="" title="single 13" href="" shape="poly" coords="397,265,409,294,317,308,317,304"     />
+<area id="d14" alt="" title="double 14" href="" shape="poly" coords="116,221,105,252,97,280,109,280,125,228"      />
+<area id="s14" alt="" title="single 14" href="" shape="poly" coords="128,228,116,256,108,282,171,290,182,256"     />
+<area id="t14" alt="" title="triple 14" href="" shape="poly" coords="184,256,193,262,184,294,172,293"     />
+<area id="s14_2" alt="" title="single 14" href="" shape="poly" coords="194,263,276,304,274,309,184,295"      />
+<area id="d15" alt="" title="double 15" href="" shape="poly" coords="468,400,477,405,464,429,440,455,433,449"    />
+<area id="s15" alt="" title="single 15" href="" shape="poly" coords="410,372,467,401,451,427,432,448,388,402"     />
+<area id="t15" alt="" title="triple 15" href="" shape="poly" coords="399,366,378,394,387,403,409,371"    />
+<area id="s15_2" alt="" title="single 15" href="" shape="poly" coords="398,367,380,395,313,328,318,324"      />
+<area id="d16" alt="" title="double 16" href="" shape="poly" coords="116,404,125,400,157,448,151,455"     />
+<area id="s16" alt="" title="single 16" href="" shape="poly" coords="128,399,143,426,160,447,205,404,183,372"     />
+<area id="t16" alt="" title="triple 16" href="" shape="poly" coords="186,371,192,368,212,393,205,401"     />
+<area id="s16_2" alt="" title="single 16" href="" shape="poly" coords="193,365,216,392,284,328,276,324"     />
+<area id="d17" alt="" title="double 17" href="" shape="poly" coords="382,484,389,496,360,505,329,515,327,504"      />
+<area id="s17" alt="" title="single 17" href="" shape="poly" coords="316,440,327,500,383,482,355,427"      />
+<area id="t17" alt="" title="triple 17" href="" shape="poly" coords="316,439,315,426,349,416,354,426"      />
+<area id="s17_2" alt="" title="single 17" href="" shape="poly" coords="314,425,332,424,348,416,307,332,299,336"      />
+<area id="d18" alt="" title="double 18" href="" shape="poly" coords="388,133,384,144,431,178,436,168,418,152"     />
+<area id="s18" alt="" title="single 18" href="" shape="poly" coords="380,147,431,177,386,220,356,201"      />
+<area id="t18" alt="" title="triple 18" href="" shape="poly" coords="356,201,349,210,378,232,387,224"      />
+<area id="s18_2" alt="" title="single 18" href="" shape="poly" coords="349,213,375,232,312,296,307,295"      />
+<area id="d19" alt="" title="double 19" href="" shape="poly" coords="209,484,234,494,265,501,262,513,236,507,204,496"   />
+<area id="s19" alt="" title="single 19" href="" shape="poly" coords="207,483,234,493,264,502,277,437,240,427"     />
+<area id="t19" alt="" title="triple 19" href="" shape="poly" coords="244,416,238,424,276,438,276,428"      />
+<area id="s19_2" alt="" title="single 19" href="" shape="poly" coords="244,414,279,427,295,336,284,334"     />
+<area id="d20" alt="" title="double 20" href="" shape="poly" coords="265,116,267,126,299,124,328,127,328,113,290,112"      />
+<area id="s20" alt="" title="single 20" href="" shape="poly" coords="269,126,278,187,318,187,326,127"      />
+<area id="t20" alt="" title="triple 20" href="" shape="poly" coords="277,188,279,201,314,200,316,190"      />
+<area id="s20_2" alt="" title="single 20" href="" shape="poly" coords="280,200,314,200,299,289,295,292"     />
+<area id="s25" alt="" title="single 25" href="" shape="poly" coords="317,310,314,323,307,331,294,334,279,323,278,313,283,301,294,296,307,297"      />
+<area id="s50" alt="" title="single 50" href="" shape="poly" coords="296,306.40000915527344,305,310.40000915527344,304,320.40000915527344,296,322.40000915527344,292,318.40000915527344,290,310.40000915527344"      />
 </map>
 
-</map>
 
 
 </body>

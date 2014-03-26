@@ -6,50 +6,61 @@
         <script src="js/jquery-2.1.0.min.js"></script>
         <script>
         $(document).ready(function(){
-        $('.button').click(function() {
+            $('.button').click(function() {
 
                 var start = +$('.total1').val();
                 var i;
-                if ($(this).attr("value") == '20'){
+                if ($(this).attr("id") == 'no1'){
                     var start = start - 20;
                    // $('.total1').val(start);
                 }
-               else  if ($(this).attr("value") == '40'){
+               else  if ($(this).attr("id") == 'no2'){
                     var start = start - 40;
                 }
 
-               else if ($(this).attr("value") == '60'){
+               else if ($(this).attr("id") == 'no3'){
                     var start = start - 60;
                }
                $('.total1').val(start);
-           //}
-              
-               // alert($(this).attr("value"));
-        })
+                winner();
+            });
+            
 
-        $('.button1').click(function() {
+            $('.button1').click(function() {
 
                 var start = +$('.total2').val();
                 var i;
-                if ($(this).attr("value") == '20'){
+                if ($(this).attr("id") == 'no1'){
                     var start = start - 20;
                    // $('.total1').val(start);
                 }
-               else  if ($(this).attr("value") == '40'){
+               else  if ($(this).attr("id") == 'no2'){
                     var start = start - 40;
                 }
 
-               else if ($(this).attr("value") == '60'){
+               else if ($(this).attr("id") == 'no3'){
                     var start = start - 60;
                }
+
                $('.total2').val(start);
-           //}
-              
-               // alert($(this).attr("value"));
-        })
 
+               winner();
+           //}      
+                    
+            });
 
-    });
+            function winner(){
+
+                if($('.total1').val() == '0'){
+                    alert('Player 1 is the winner');
+                    window.location= "cslculate.html";}
+                else if($('.total2').val() == '0'){
+                    alert('Player 2 is the winner')
+                    window.location= "cslculate.html";;
+                }
+            }
+
+        });
         
         </script>
 </head>
@@ -80,7 +91,8 @@
         </tr>
         <tr>
             <td>Starting point = 500</td>
-            <td>Starting point = 500</td>        </tr>
+            <td>Starting point = 500</td>
+        </tr>
          <tr>
             <td>
             <input type='text' class='total1' value='500'></td>

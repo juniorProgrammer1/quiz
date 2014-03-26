@@ -85,17 +85,14 @@
             else if ($(this).attr("id") == 's25'){
                     var start = start - (25);
                 }
-            else if ($(this).attr("id") == 's25'){
-                    var start = start - (25);
-                }
             else if ($(this).attr("id") == 'd1'){
                     var start = start - (1*2);
                 }
             else if ($(this).attr("id") == 's1'){
                     var start = start - (1);
                 }
-            else if ($(this).attr("id") == 't3'){
-                    var start = start - (3*3);
+            else if ($(this).attr("id") == 't1'){
+                    var start = start - (1*3);
                 } 
             else if ($(this).attr("id") == 's1_2'){
                     var start = start - (1);

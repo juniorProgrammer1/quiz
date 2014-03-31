@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/quiz.css">
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 <script src="js/jquery-2.1.0.min.js">
 
 </script>
@@ -46,11 +46,28 @@
                 });
         });
 
-        $(document).ready(function(){
-            $('#total1') = +$('maybank')
-            $('maybank') = 
 
-        })
+ $(document).ready(function(){
+  $("#bank").keyup(function(){
+      medianMaybank();
+      medianBankIslam();
+    });
+  });
+
+
+      function medianMaybank(values) {
+
+    values.sort( function(a,b) {return a - b;} );
+
+    var total1 = Math.floor(values.length/2);
+
+    if(values.length % 2)
+        return values[total1];
+    else
+        return (values[total1-1] + values[total1]) / 2.0;
+}
+
+
 
 </script>
 
@@ -61,14 +78,14 @@ border-collapse:collapse;
 }
 table, td, th
 {
-border:3px solid teal;
+border:3px solid black;
 }
 </style>
     <title></title>
 </head>
 <body>
 
-<table class="table table-bordered" id="bank" cellpadding="10" >
+<table class="table table-bordered" id="bank" cellpadding="10" style="width:500px">
     <thead>
         <tr>
             <th>#</th>

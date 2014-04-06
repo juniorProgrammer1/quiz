@@ -50,7 +50,67 @@
 
                                 }
                         }
-                    else if ($(this).attr("id") == 's25'){
+                    else if ($(this).attr("id") == 's25_1'){
+                            var start = start - (25);
+                                if(start < 0) {
+
+                                    alert(" Your hit value is larger.Please Try Again");
+
+                                    return start;
+
+                                }
+                        }
+                        else if ($(this).attr("id") == 's25_2'){
+                            var start = start - (25);
+                                if(start < 0) {
+
+                                    alert(" Your hit value is larger.Please Try Again");
+
+                                    return start;
+
+                                }
+                        }
+                        else if ($(this).attr("id") == 's25_3'){
+                            var start = start - (25);
+                                if(start < 0) {
+
+                                    alert(" Your hit value is larger.Please Try Again");
+
+                                    return start;
+
+                                }
+                        }
+                        else if ($(this).attr("id") == 's25_4'){
+                            var start = start - (25);
+                                if(start < 0) {
+
+                                    alert(" Your hit value is larger.Please Try Again");
+
+                                    return start;
+
+                                }
+                        }
+                        else if ($(this).attr("id") == 's25_5'){
+                            var start = start - (25);
+                                if(start < 0) {
+
+                                    alert(" Your hit value is larger.Please Try Again");
+
+                                    return start;
+
+                                }
+                        }
+                        else if ($(this).attr("id") == 's25_6'){
+                            var start = start - (25);
+                                if(start < 0) {
+
+                                    alert(" Your hit value is larger.Please Try Again");
+
+                                    return start;
+
+                                }
+                        }
+                        else if ($(this).attr("id") == 's25_7'){
                             var start = start - (25);
                                 if(start < 0) {
 

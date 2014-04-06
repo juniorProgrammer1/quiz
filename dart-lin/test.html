@@ -4,7 +4,8 @@
     <title>jQuery maphilight documentation</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script type="text/javascript" src="maphilight/jquery.maphilight.js"></script>
-    <script>$(function() {
+    <script>
+    $(function() {
         $('.map').maphilight({
             fillColor: '008800'
         });
@@ -25,7 +26,8 @@
             data.alwaysOn = !data.alwaysOn;
             $('#star').data('maphilight', data).trigger('alwaysOn.maphilight');
         });
-    });</script>
+    });
+    </script>
 </head>
 <body>
 <h1>Assorted features</h1>

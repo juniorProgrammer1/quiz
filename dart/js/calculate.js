@@ -1009,7 +1009,7 @@
                                   alert("You need to target double 2");
                                 }
 
-                                else if ($('.total2').val() == 5 ) {
+                                else if ($('#total2').val() == 5 ) {
 
                                   alert("You need to target 3 and double 1");
                                }

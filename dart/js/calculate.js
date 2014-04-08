@@ -907,3 +907,49 @@
                 $(".player2").click(function(){
                 $(this).removeClass('player1').addClass('player2');
                 });*/
+
+                 $(document).ready(function(){
+                        $("area").click(function() {
+                            //var start = +$('.total1').val();
+                        
+                               if ($('.total1').val() == 2 ) {
+
+                                  alert("You need to target double 1");
+                               }    
+
+                               else if ($('.total1').val() == 3 ) {
+
+                                  alert("You need to target 1 and double 1");
+                               }
+
+                                else if ($('.total1').val() == 4 ) {
+
+                                  alert("You need to target double 2");
+                                }
+
+                                else if ($('.total1').val() == 5 ) {
+
+                                  alert("You need to target 3 and double 1");
+                               }
+
+
+                                  else if ($('.total1').val() == 6 ) {
+
+                                      alert("You need to target double 3");
+                                }
+
+                                  else if ($('.total1').val() == 7 ) {
+                                      alert("You need to target 5 and double 1");
+                                }
+
+                                 else if ($('.total1').val() == 8 ) {
+                                      alert("You need to target double 4");
+                                }
+
+                                 else if ($('.total1').val() == 9) {
+                                     alert("You need to target triple 3 OR  7 and double 1");
+                               }
+                                //tentukan pemenang
+                                //$('.total1').val(start);
+                        });
+                 });

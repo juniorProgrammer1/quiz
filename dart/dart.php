@@ -114,11 +114,13 @@
 
 </td>
 <td>
+<h3><center>Welcome to Dart System</center></h3>
+<p>Please <button type="button" class="btn btn-primary btn-xs" onclick="markah()">click this button</button> to start the game</p>
 
 <table class="table table-bordered" border="2" color="black">
     <thead>
         <tr>
-            <th><center><button class= Player 1</center></th>
+            <th><center>Player 1</center></th>
             <th><center>Player 2</center></th>
         </tr>
     </thead>
@@ -126,11 +128,11 @@
         <tr>
             <td>Starting point = 500</td>
             <td>Starting point = 500</td>
-        </tr>
+        </t> 
          <tr>
             <td>
-            <input type='text' class='total1' value='500'></td>
-            <td><input type='text' class='total2' value='500'>
+            <input type='text' class='total' id='total1' value='500'></td>
+            <td><input type='text' class='total' id='total2' value='500'>
             </td>
         </tr>
 

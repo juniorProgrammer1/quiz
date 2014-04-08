@@ -8,7 +8,27 @@
 
             $(document).ready(function(){
                 $("area").click(function() {
-                    var start = +$('.total1').val();
+                    //x complete lgi
+                    var i =1;
+                    for (var i=1;i<=6;i++){
+ 
+                            if(i>0 && i<=3){
+
+                                    var player = 'player 1';
+                                    var result1 = +$('#total1').val();
+                                    var start =result1;
+                                
+                            }
+                                
+
+                            if(i>3 && i<=6){
+                                var player = 'player 2';
+                                var result = +$('#total2').val();
+                                var start =result;
+                           // break;
+                        }
+                     }
+
                 
                         if ($(this).attr("id") == 't12'){
                             var start = start - (12*3);
@@ -893,14 +913,29 @@
 
                                 }
                         }
-                        //tentukan pemenang
-                        $('.total1').val(start);
+                        //function return total untuk player 1 dan player 2
+                            if (player =='player 1')
+                                {
+                                    $('#total1').val(start);
+                                }
+                       else if (player =='player 2')
+                                {
+                                    $('#total2').val(start);
+                                }
 
-               /*winner();
-                if($('.total1').val() == '0'){
-                    alert('Player 1 is the winner');
-                    window.location= "dart.php";}
-   // winner();*/
+                        //function  untuk tentukan pemenang
+                            if ($('#total1').val() == '0')
+                                {
+                                    alert('Player 1 is the winner');
+                                    window.location= "dart.php";
+                                }
+                        
+                      else if ($('#total2').val() == '0')
+                                {
+                                    alert('Player 2 is the winner');
+                                    window.location= "dart.php";
+                                }
+
                 });
             });
 /*
@@ -949,7 +984,6 @@
                                  else if ($('.total1').val() == 9) {
                                      alert("You need to target triple 3 OR  7 and double 1");
                                }
-                                //tentukan pemenang
-                                //$('.total1').val(start);
+                                
                         });
                  });

@@ -929,6 +929,7 @@
                                     alert('Player 1 is the winner');
                                     window.location= "dart.php";
                                 }
+
                         
                       else if ($('#total2').val() == '0')
                                 {
@@ -947,41 +948,87 @@
                         $("area").click(function() {
                             //var start = +$('.total1').val();
                         
-                               if ($('.total1').val() == 2 ) {
+                               if ($('#total1').val() == 2 ) {
 
                                   alert("You need to target double 1");
                                }    
 
-                               else if ($('.total1').val() == 3 ) {
+                               else if ($('#total1').val() == 3 ) {
 
                                   alert("You need to target 1 and double 1");
                                }
 
-                                else if ($('.total1').val() == 4 ) {
+                                else if ($('#total1').val() == 4 ) {
 
                                   alert("You need to target double 2");
                                 }
 
-                                else if ($('.total1').val() == 5 ) {
+                                else if ($('#total1').val() == 5 ) {
 
                                   alert("You need to target 3 and double 1");
                                }
 
 
-                                  else if ($('.total1').val() == 6 ) {
+                                  else if ($('#total1').val() == 6 ) {
 
                                       alert("You need to target double 3");
                                 }
 
-                                  else if ($('.total1').val() == 7 ) {
+                                  else if ($('#total1').val() == 7 ) {
                                       alert("You need to target 5 and double 1");
                                 }
 
-                                 else if ($('.total1').val() == 8 ) {
+                                 else if ($('#total1').val() == 8 ) {
                                       alert("You need to target double 4");
                                 }
 
-                                 else if ($('.total1').val() == 9) {
+                                 else if ($('#total1').val() == 9) {
+                                     alert("You need to target triple 3 OR  7 and double 1");
+                               }
+                                
+                        });
+                 });
+
+
+                 $(document).ready(function(){
+                        $("area").click(function() {
+                            //var start = +$('.total2').val();
+                        
+                               if ($('#total2').val() == 2 ) {
+
+                                  alert("You need to target double 1");
+                               }    
+
+                               else if ($('#total2').val() == 3 ) {
+
+                                  alert("You need to target 1 and double 1");
+                               }
+
+                                else if ($('#total2').val() == 4 ) {
+
+                                  alert("You need to target double 2");
+                                }
+
+                                else if ($('.total2').val() == 5 ) {
+
+                                  alert("You need to target 3 and double 1");
+                               }
+
+
+                                  else if ($('#total2').val() == 6 ) {
+
+                                      alert("You need to target double 3");
+                                }
+
+                                  else if ($('#total2').val() == 7 ) {
+                                      alert("You need to target 5 and double 1");
+                                }
+
+                                 else if ($('#total2').val() == 8 ) {
+                                      alert("You need to target double 4");
+                                }
+
+                                 else if ($('#total2').val() == 9) {
                                      alert("You need to target triple 3 OR  7 and double 1");
                                }
                                 

@@ -339,7 +339,7 @@ $(document).ready(function(){
                 <input type="text" id="totalAll" disabled="true" />
             </td>
         </tr>
-         <tr>
+        <!--  <tr>
             <td></td>
             <td><b>Mode</b></td>
             <td>
@@ -351,7 +351,7 @@ $(document).ready(function(){
             <td>
                 <input type="text" id="modetotalAll" disabled="true" />
             </td>
-        </tr>
+        </tr> -->
         <tr>
             <td></td>
             <td><b>Mean</b></td>
@@ -365,8 +365,8 @@ $(document).ready(function(){
                 <input type="text" id="meantotalAll" disabled="true" />
             </td>
         </tr>
-          <td></td>
-            <td><b>Median</b></td>
+         <!--  <td></td> -->
+           <!--  <td><b>Median</b></td>
             <td>
                 <input type="text" id="medianMaybank" disabled="true" />
             </td>
@@ -375,8 +375,8 @@ $(document).ready(function(){
             </td>
             <td>
                 <input type="text" id="mediantotalAll" disabled="true" />
-            </td>
-        </tr>
+            </td> -->
+   <!--      </tr> -->
     </tbody>
 </table>
 
